@@ -1,5 +1,5 @@
 body{
-    background: beige;
+    background: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,21 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
 #tablero {
     display: grid;
     grid-template-columns: repeat(2, 100px);
