@@ -9,27 +9,38 @@
     <body>
         <div id="menuprincipal">
             <h1> Simon Dice</h1>
-            <form id="nombre de usuario">
+            <form id="nombre-de-usuario">
                 <label for="nombredeusuario">Nombre:</label>
                 <input type="text" id="nombredeusuario" required>
             </form>
         </div>
-        <section id="tablero">
-            <section class="button" id="rojo"></section>
-            <section class="button" id="verde"></section>
-            <section class="button" id="azul"></section>
-            <section class="button" id="amarillo"></section>
-        </section>
+            <section id="tablero">
+                <div class="button" id="rojo"></div>
+                <div class="button" id="verde"></div>
+                <div class="button" id="azul"></div>
+                <div class="button" id="amarillo"></div>
+            </section>
+        <div id="panel-informacion">
+            <div id="Inicio"></div>
+            <div>Puntuación: <span id="Puntuación">0</span></div>
+        </div>
+
+        <button id="botonReiniciar" style="display: none;">Reiniciar Partida</button>
+            
+        
 
         <section id="boton">
             <div id="Mensaje"></div>
             <button id="Start">Comenzar Partida</button>
         </section>
 
-        <section id="mejores-puntajes">
-            <div id="Mensaje"></div>
-            <button id="mejores-puntajes"> Tabla de Clasificación</button>
-        <script src="scrip.js"></script>
+        <button id="boton-mostrar-puntajes">Tabla de Clasificación</button>
+        <div id="lista-puntajes" style ="display: none;">
+            <h2>Tabla de Clasificación</h2>
+            <ul id="puntajes"></ul>
+        </div>
+        <script src="script.js"></script>
+        
     </body>
     
 </html>
